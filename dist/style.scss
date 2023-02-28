@@ -1,0 +1,565 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?cgdoou');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?cgdoou#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?cgdoou') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?cgdoou') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?cgdoou##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gi-ok {
+  &:before {
+    content: $gi-ok; 
+  }
+}
+.gi-rutube {
+  &:before {
+    content: $gi-rutube; 
+  }
+}
+.gi-telegram {
+  &:before {
+    content: $gi-telegram; 
+  }
+}
+.gi-vk {
+  &:before {
+    content: $gi-vk; 
+  }
+}
+.gi-bars {
+  &:before {
+    content: $gi-bars; 
+  }
+}
+.gi-cross {
+  &:before {
+    content: $gi-cross; 
+  }
+}
+.gi-arrow-marker-down {
+  &:before {
+    content: $gi-arrow-marker-down; 
+  }
+}
+.gi-arrow-marker-down-left {
+  &:before {
+    content: $gi-arrow-marker-down-left; 
+  }
+}
+.gi-arrow-marker-down-right {
+  &:before {
+    content: $gi-arrow-marker-down-right; 
+  }
+}
+.gi-arrow-marker-left {
+  &:before {
+    content: $gi-arrow-marker-left; 
+  }
+}
+.gi-arrow-marker-right {
+  &:before {
+    content: $gi-arrow-marker-right; 
+  }
+}
+.gi-arrow-marker-up {
+  &:before {
+    content: $gi-arrow-marker-up; 
+  }
+}
+.gi-arrow-marker-up-left {
+  &:before {
+    content: $gi-arrow-marker-up-left; 
+  }
+}
+.gi-arrow-marker-up-right {
+  &:before {
+    content: $gi-arrow-marker-up-right; 
+  }
+}
+.gi-chevron-down {
+  &:before {
+    content: $gi-chevron-down; 
+  }
+}
+.gi-chevron-down-left {
+  &:before {
+    content: $gi-chevron-down-left; 
+  }
+}
+.gi-chevron-down-right {
+  &:before {
+    content: $gi-chevron-down-right; 
+  }
+}
+.gi-chevron-left {
+  &:before {
+    content: $gi-chevron-left; 
+  }
+}
+.gi-chevron-right {
+  &:before {
+    content: $gi-chevron-right; 
+  }
+}
+.gi-chevron-up {
+  &:before {
+    content: $gi-chevron-up; 
+  }
+}
+.gi-chevron-up-left {
+  &:before {
+    content: $gi-chevron-up-left; 
+  }
+}
+.gi-chevron-up-right {
+  &:before {
+    content: $gi-chevron-up-right; 
+  }
+}
+.gi-adress {
+  &:before {
+    content: $gi-adress; 
+  }
+}
+.gi-arrow-left {
+  &:before {
+    content: $gi-arrow-left; 
+  }
+}
+.gi-arrow-right {
+  &:before {
+    content: $gi-arrow-right; 
+  }
+}
+.gi-atom {
+  &:before {
+    content: $gi-atom; 
+  }
+}
+.gi-award {
+  &:before {
+    content: $gi-award; 
+  }
+}
+.gi-bachleor {
+  &:before {
+    content: $gi-bachleor; 
+  }
+}
+.gi-base-cathedra {
+  &:before {
+    content: $gi-base-cathedra; 
+  }
+}
+.gi-big-atom {
+  &:before {
+    content: $gi-big-atom; 
+  }
+}
+.gi-conference {
+  &:before {
+    content: $gi-conference; 
+  }
+}
+.gi-conferense {
+  &:before {
+    content: $gi-conferense; 
+  }
+}
+.gi-congratulation {
+  &:before {
+    content: $gi-congratulation; 
+  }
+}
+.gi-creative {
+  &:before {
+    content: $gi-creative; 
+  }
+}
+.gi-cycle {
+  &:before {
+    content: $gi-cycle; 
+  }
+}
+.gi-docs {
+  &:before {
+    content: $gi-docs; 
+  }
+}
+.gi-ecology {
+  &:before {
+    content: $gi-ecology; 
+  }
+}
+.gi-exhibition {
+  &:before {
+    content: $gi-exhibition; 
+  }
+}
+.gi-fax {
+  &:before {
+    content: $gi-fax; 
+  }
+}
+.gi-file {
+  &:before {
+    content: $gi-file; 
+  }
+}
+.gi-file-audio {
+  &:before {
+    content: $gi-file-audio; 
+  }
+}
+.gi-file-code {
+  &:before {
+    content: $gi-file-code; 
+  }
+}
+.gi-file-doc {
+  &:before {
+    content: $gi-file-doc; 
+  }
+}
+.gi-file-image {
+  &:before {
+    content: $gi-file-image; 
+  }
+}
+.gi-file-pdf {
+  &:before {
+    content: $gi-file-pdf; 
+  }
+}
+.gi-file-ppt {
+  &:before {
+    content: $gi-file-ppt; 
+  }
+}
+.gi-file-txt {
+  &:before {
+    content: $gi-file-txt; 
+  }
+}
+.gi-file-video {
+  &:before {
+    content: $gi-file-video; 
+  }
+}
+.gi-file-xls {
+  &:before {
+    content: $gi-file-xls; 
+  }
+}
+.gi-file-zip {
+  &:before {
+    content: $gi-file-zip; 
+  }
+}
+.gi-fpso {
+  &:before {
+    content: $gi-fpso; 
+  }
+}
+.gi-graduate {
+  &:before {
+    content: $gi-graduate; 
+  }
+}
+.gi-guap-logo {
+  &:before {
+    content: $gi-guap-logo; 
+  }
+}
+.gi-institute-partners {
+  &:before {
+    content: $gi-institute-partners; 
+  }
+}
+.gi-international-projects {
+  &:before {
+    content: $gi-international-projects; 
+  }
+}
+.gi-job {
+  &:before {
+    content: $gi-job; 
+  }
+}
+.gi-laureate {
+  &:before {
+    content: $gi-laureate; 
+  }
+}
+.gi-live {
+  &:before {
+    content: $gi-live; 
+  }
+}
+.gi-logo-fdpo {
+  &:before {
+    content: $gi-logo-fdpo; 
+  }
+}
+.gi-logo-fspo {
+  &:before {
+    content: $gi-logo-fspo; 
+  }
+}
+.gi-logo-i01 {
+  &:before {
+    content: $gi-logo-i01; 
+  }
+}
+.gi-logo-i02 {
+  &:before {
+    content: $gi-logo-i02; 
+  }
+}
+.gi-logo-i03 {
+  &:before {
+    content: $gi-logo-i03; 
+  }
+}
+.gi-logo-i04 {
+  &:before {
+    content: $gi-logo-i04; 
+  }
+}
+.gi-logo-i05 {
+  &:before {
+    content: $gi-logo-i05; 
+  }
+}
+.gi-logo-i06 {
+  &:before {
+    content: $gi-logo-i06; 
+  }
+}
+.gi-logo-i07 {
+  &:before {
+    content: $gi-logo-i07; 
+  }
+}
+.gi-logo-i08 {
+  &:before {
+    content: $gi-logo-i08; 
+  }
+}
+.gi-logo-igf {
+  &:before {
+    content: $gi-logo-igf; 
+  }
+}
+.gi-logo-iibmp {
+  &:before {
+    content: $gi-logo-iibmp; 
+  }
+}
+.gi-logo-indo {
+  &:before {
+    content: $gi-logo-indo; 
+  }
+}
+.gi-magister {
+  &:before {
+    content: $gi-magister; 
+  }
+}
+.gi-mail {
+  &:before {
+    content: $gi-mail; 
+  }
+}
+.gi-mastery {
+  &:before {
+    content: $gi-mastery; 
+  }
+}
+.gi-meeting {
+  &:before {
+    content: $gi-meeting; 
+  }
+}
+.gi-military {
+  &:before {
+    content: $gi-military; 
+  }
+}
+.gi-museum-of-police {
+  &:before {
+    content: $gi-museum-of-police; 
+  }
+}
+.gi-passing-score {
+  &:before {
+    content: $gi-passing-score; 
+  }
+}
+.gi-person {
+  &:before {
+    content: $gi-person; 
+  }
+}
+.gi-phone {
+  &:before {
+    content: $gi-phone; 
+  }
+}
+.gi-postgraduate {
+  &:before {
+    content: $gi-postgraduate; 
+  }
+}
+.gi-prize {
+  &:before {
+    content: $gi-prize; 
+  }
+}
+.gi-professor {
+  &:before {
+    content: $gi-professor; 
+  }
+}
+.gi-schedule {
+  &:before {
+    content: $gi-schedule; 
+  }
+}
+.gi-science {
+  &:before {
+    content: $gi-science; 
+  }
+}
+.gi-science-event {
+  &:before {
+    content: $gi-science-event; 
+  }
+}
+.gi-science-journal {
+  &:before {
+    content: $gi-science-journal; 
+  }
+}
+.gi-scientificgroups {
+  &:before {
+    content: $gi-scientificgroups; 
+  }
+}
+.gi-search {
+  &:before {
+    content: $gi-search; 
+  }
+}
+.gi-specialist {
+  &:before {
+    content: $gi-specialist; 
+  }
+}
+.gi-sport {
+  &:before {
+    content: $gi-sport; 
+  }
+}
+.gi-star {
+  &:before {
+    content: $gi-star; 
+  }
+}
+.gi-start {
+  &:before {
+    content: $gi-start; 
+  }
+}
+.gi-students {
+  &:before {
+    content: $gi-students; 
+  }
+}
+.gi-study {
+  &:before {
+    content: $gi-study; 
+  }
+}
+.gi-target-abits {
+  &:before {
+    content: $gi-target-abits; 
+  }
+}
+.gi-target-employee {
+  &:before {
+    content: $gi-target-employee; 
+  }
+}
+.gi-target-partners {
+  &:before {
+    content: $gi-target-partners; 
+  }
+}
+.gi-target-schools {
+  &:before {
+    content: $gi-target-schools; 
+  }
+}
+.gi-target-studs {
+  &:before {
+    content: $gi-target-studs; 
+  }
+}
+.gi-target-vips {
+  &:before {
+    content: $gi-target-vips; 
+  }
+}
+.gi-update {
+  &:before {
+    content: $gi-update; 
+  }
+}
+.gi-user {
+  &:before {
+    content: $gi-user; 
+  }
+}
+.gi-warning {
+  &:before {
+    content: $gi-warning; 
+  }
+}
+.gi-win-1 {
+  &:before {
+    content: $gi-win-1; 
+  }
+}
+.gi-win-2 {
+  &:before {
+    content: $gi-win-2; 
+  }
+}
+.gi-win-3 {
+  &:before {
+    content: $gi-win-3; 
+  }
+}
+
