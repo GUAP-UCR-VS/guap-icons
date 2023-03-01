@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?gl04py');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?gl04py#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?gl04py') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?gl04py') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?gl04py##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?twr4dv');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?twr4dv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?twr4dv') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?twr4dv') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?twr4dv##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,24 +27,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.gi-ok {
+.gi-logo-vk {
   &:before {
-    content: $gi-ok; 
+    content: $gi-logo-vk; 
   }
 }
-.gi-rutube {
+.gi-logo-ok {
   &:before {
-    content: $gi-rutube; 
+    content: $gi-logo-ok; 
   }
 }
-.gi-telegram {
+.gi-logo-telegram {
   &:before {
-    content: $gi-telegram; 
+    content: $gi-logo-telegram; 
   }
 }
-.gi-vk {
+.gi-logo-rutube {
   &:before {
-    content: $gi-vk; 
+    content: $gi-logo-rutube; 
+  }
+}
+.gi-logo-youtube {
+  &:before {
+    content: $gi-logo-youtube; 
   }
 }
 .gi-bars {
@@ -137,194 +142,9 @@
     content: $gi-chevron-up-right; 
   }
 }
-.gi-adress {
+.gi-logo-iibmp {
   &:before {
-    content: $gi-adress; 
-  }
-}
-.gi-arrow-left {
-  &:before {
-    content: $gi-arrow-left; 
-  }
-}
-.gi-arrow-right {
-  &:before {
-    content: $gi-arrow-right; 
-  }
-}
-.gi-atom {
-  &:before {
-    content: $gi-atom; 
-  }
-}
-.gi-award {
-  &:before {
-    content: $gi-award; 
-  }
-}
-.gi-bachleor {
-  &:before {
-    content: $gi-bachleor; 
-  }
-}
-.gi-base-cathedra {
-  &:before {
-    content: $gi-base-cathedra; 
-  }
-}
-.gi-big-atom {
-  &:before {
-    content: $gi-big-atom; 
-  }
-}
-.gi-conference {
-  &:before {
-    content: $gi-conference; 
-  }
-}
-.gi-conferense {
-  &:before {
-    content: $gi-conferense; 
-  }
-}
-.gi-congratulation {
-  &:before {
-    content: $gi-congratulation; 
-  }
-}
-.gi-creative {
-  &:before {
-    content: $gi-creative; 
-  }
-}
-.gi-cycle {
-  &:before {
-    content: $gi-cycle; 
-  }
-}
-.gi-docs {
-  &:before {
-    content: $gi-docs; 
-  }
-}
-.gi-ecology {
-  &:before {
-    content: $gi-ecology; 
-  }
-}
-.gi-exhibition {
-  &:before {
-    content: $gi-exhibition; 
-  }
-}
-.gi-fax {
-  &:before {
-    content: $gi-fax; 
-  }
-}
-.gi-file {
-  &:before {
-    content: $gi-file; 
-  }
-}
-.gi-file-audio {
-  &:before {
-    content: $gi-file-audio; 
-  }
-}
-.gi-file-code {
-  &:before {
-    content: $gi-file-code; 
-  }
-}
-.gi-file-doc {
-  &:before {
-    content: $gi-file-doc; 
-  }
-}
-.gi-file-image {
-  &:before {
-    content: $gi-file-image; 
-  }
-}
-.gi-file-pdf {
-  &:before {
-    content: $gi-file-pdf; 
-  }
-}
-.gi-file-ppt {
-  &:before {
-    content: $gi-file-ppt; 
-  }
-}
-.gi-file-txt {
-  &:before {
-    content: $gi-file-txt; 
-  }
-}
-.gi-file-video {
-  &:before {
-    content: $gi-file-video; 
-  }
-}
-.gi-file-xls {
-  &:before {
-    content: $gi-file-xls; 
-  }
-}
-.gi-file-zip {
-  &:before {
-    content: $gi-file-zip; 
-  }
-}
-.gi-fpso {
-  &:before {
-    content: $gi-fpso; 
-  }
-}
-.gi-graduate {
-  &:before {
-    content: $gi-graduate; 
-  }
-}
-.gi-guap-logo {
-  &:before {
-    content: $gi-guap-logo; 
-  }
-}
-.gi-institute-partners {
-  &:before {
-    content: $gi-institute-partners; 
-  }
-}
-.gi-international-projects {
-  &:before {
-    content: $gi-international-projects; 
-  }
-}
-.gi-job {
-  &:before {
-    content: $gi-job; 
-  }
-}
-.gi-laureate {
-  &:before {
-    content: $gi-laureate; 
-  }
-}
-.gi-live {
-  &:before {
-    content: $gi-live; 
-  }
-}
-.gi-logo-fdpo {
-  &:before {
-    content: $gi-logo-fdpo; 
-  }
-}
-.gi-logo-fspo {
-  &:before {
-    content: $gi-logo-fspo; 
+    content: $gi-logo-iibmp; 
   }
 }
 .gi-logo-i01 {
@@ -347,11 +167,6 @@
     content: $gi-logo-i04; 
   }
 }
-.gi-logo-i05 {
-  &:before {
-    content: $gi-logo-i05; 
-  }
-}
 .gi-logo-i06 {
   &:before {
     content: $gi-logo-i06; 
@@ -367,19 +182,84 @@
     content: $gi-logo-i08; 
   }
 }
+.gi-logo-indo {
+  &:before {
+    content: $gi-logo-indo; 
+  }
+}
+.gi-logo-fdpo {
+  &:before {
+    content: $gi-logo-fdpo; 
+  }
+}
+.gi-logo-fspo {
+  &:before {
+    content: $gi-logo-fspo; 
+  }
+}
 .gi-logo-igf {
   &:before {
     content: $gi-logo-igf; 
   }
 }
-.gi-logo-iibmp {
+.gi-guap-logo {
   &:before {
-    content: $gi-logo-iibmp; 
+    content: $gi-guap-logo; 
   }
 }
-.gi-logo-indo {
+.gi-atom {
   &:before {
-    content: $gi-logo-indo; 
+    content: $gi-atom; 
+  }
+}
+.gi-big-atom {
+  &:before {
+    content: $gi-big-atom; 
+  }
+}
+.gi-star {
+  &:before {
+    content: $gi-star; 
+  }
+}
+.gi-logo-i05 {
+  &:before {
+    content: $gi-logo-i05; 
+  }
+}
+.gi-institute-partners {
+  &:before {
+    content: $gi-institute-partners; 
+  }
+}
+.gi-target-partners {
+  &:before {
+    content: $gi-target-partners; 
+  }
+}
+.gi-job {
+  &:before {
+    content: $gi-job; 
+  }
+}
+.gi-start {
+  &:before {
+    content: $gi-start; 
+  }
+}
+.gi-fpso {
+  &:before {
+    content: $gi-fpso; 
+  }
+}
+.gi-bachleor {
+  &:before {
+    content: $gi-bachleor; 
+  }
+}
+.gi-specialist {
+  &:before {
+    content: $gi-specialist; 
   }
 }
 .gi-magister {
@@ -387,34 +267,14 @@
     content: $gi-magister; 
   }
 }
-.gi-mail {
+.gi-postgraduate {
   &:before {
-    content: $gi-mail; 
+    content: $gi-postgraduate; 
   }
 }
-.gi-mastery {
+.gi-user {
   &:before {
-    content: $gi-mastery; 
-  }
-}
-.gi-meeting {
-  &:before {
-    content: $gi-meeting; 
-  }
-}
-.gi-military {
-  &:before {
-    content: $gi-military; 
-  }
-}
-.gi-museum-of-police {
-  &:before {
-    content: $gi-museum-of-police; 
-  }
-}
-.gi-passing-score {
-  &:before {
-    content: $gi-passing-score; 
+    content: $gi-user; 
   }
 }
 .gi-person {
@@ -422,19 +282,9 @@
     content: $gi-person; 
   }
 }
-.gi-phone {
+.gi-students {
   &:before {
-    content: $gi-phone; 
-  }
-}
-.gi-postgraduate {
-  &:before {
-    content: $gi-postgraduate; 
-  }
-}
-.gi-prize {
-  &:before {
-    content: $gi-prize; 
+    content: $gi-students; 
   }
 }
 .gi-professor {
@@ -442,14 +292,69 @@
     content: $gi-professor; 
   }
 }
+.gi-meeting {
+  &:before {
+    content: $gi-meeting; 
+  }
+}
+.gi-target-studs {
+  &:before {
+    content: $gi-target-studs; 
+  }
+}
+.gi-target-employee {
+  &:before {
+    content: $gi-target-employee; 
+  }
+}
+.gi-cycle {
+  &:before {
+    content: $gi-cycle; 
+  }
+}
+.gi-conferense {
+  &:before {
+    content: $gi-conferense; 
+  }
+}
+.gi-arrow-left {
+  &:before {
+    content: $gi-arrow-left; 
+  }
+}
+.gi-arrow-right {
+  &:before {
+    content: $gi-arrow-right; 
+  }
+}
+.gi-adress {
+  &:before {
+    content: $gi-adress; 
+  }
+}
+.gi-base-cathedra {
+  &:before {
+    content: $gi-base-cathedra; 
+  }
+}
+.gi-exhibition {
+  &:before {
+    content: $gi-exhibition; 
+  }
+}
+.gi-graduate {
+  &:before {
+    content: $gi-graduate; 
+  }
+}
+.gi-laureate {
+  &:before {
+    content: $gi-laureate; 
+  }
+}
 .gi-schedule {
   &:before {
     content: $gi-schedule; 
-  }
-}
-.gi-science {
-  &:before {
-    content: $gi-science; 
   }
 }
 .gi-science-event {
@@ -467,64 +372,14 @@
     content: $gi-scientificgroups; 
   }
 }
-.gi-search {
-  &:before {
-    content: $gi-search; 
-  }
-}
-.gi-specialist {
-  &:before {
-    content: $gi-specialist; 
-  }
-}
 .gi-sport {
   &:before {
     content: $gi-sport; 
   }
 }
-.gi-star {
-  &:before {
-    content: $gi-star; 
-  }
-}
-.gi-start {
-  &:before {
-    content: $gi-start; 
-  }
-}
-.gi-students {
-  &:before {
-    content: $gi-students; 
-  }
-}
 .gi-study {
   &:before {
     content: $gi-study; 
-  }
-}
-.gi-target-abits {
-  &:before {
-    content: $gi-target-abits; 
-  }
-}
-.gi-target-employee {
-  &:before {
-    content: $gi-target-employee; 
-  }
-}
-.gi-target-partners {
-  &:before {
-    content: $gi-target-partners; 
-  }
-}
-.gi-target-schools {
-  &:before {
-    content: $gi-target-schools; 
-  }
-}
-.gi-target-studs {
-  &:before {
-    content: $gi-target-studs; 
   }
 }
 .gi-target-vips {
@@ -537,14 +392,24 @@
     content: $gi-update; 
   }
 }
-.gi-user {
+.gi-military {
   &:before {
-    content: $gi-user; 
+    content: $gi-military; 
   }
 }
-.gi-warning {
+.gi-prize {
   &:before {
-    content: $gi-warning; 
+    content: $gi-prize; 
+  }
+}
+.gi-award {
+  &:before {
+    content: $gi-award; 
+  }
+}
+.gi-congratulation {
+  &:before {
+    content: $gi-congratulation; 
   }
 }
 .gi-win-1 {

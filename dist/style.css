@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'guapicons';
-  src:  url('fonts/guapicons.eot?gl04py');
-  src:  url('fonts/guapicons.eot?gl04py#iefix') format('embedded-opentype'),
-    url('fonts/guapicons.ttf?gl04py') format('truetype'),
-    url('fonts/guapicons.woff?gl04py') format('woff'),
-    url('fonts/guapicons.svg?gl04py#guapicons') format('svg');
+  src:  url('fonts/guapicons.eot?twr4dv');
+  src:  url('fonts/guapicons.eot?twr4dv#iefix') format('embedded-opentype'),
+    url('fonts/guapicons.ttf?twr4dv') format('truetype'),
+    url('fonts/guapicons.woff?twr4dv') format('woff'),
+    url('fonts/guapicons.svg?twr4dv#guapicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,17 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.gi-ok:before {
-  content: "\e923";
+.gi-logo-vk:before {
+  content: "\e91a";
 }
-.gi-rutube:before {
-  content: "\e964";
+.gi-logo-ok:before {
+  content: "\e91d";
 }
-.gi-telegram:before {
-  content: "\e969";
+.gi-logo-telegram:before {
+  content: "\e91f";
 }
-.gi-vk:before {
-  content: "\e96a";
+.gi-logo-rutube:before {
+  content: "\e920";
+}
+.gi-logo-youtube:before {
+  content: "\e922";
 }
 .gi-bars:before {
   content: "\e908";
@@ -91,119 +94,8 @@
 .gi-chevron-up-right:before {
   content: "\e910";
 }
-.gi-adress:before {
-  content: "\e912";
-}
-.gi-arrow-left:before {
-  content: "\e913";
-}
-.gi-arrow-right:before {
-  content: "\e914";
-}
-.gi-atom:before {
-  content: "\e915";
-}
-.gi-award:before {
-  content: "\e916";
-}
-.gi-bachleor:before {
-  content: "\e917";
-}
-.gi-base-cathedra:before {
-  content: "\e918";
-}
-.gi-big-atom:before {
-  content: "\e919";
-}
-.gi-conference:before {
-  content: "\e91a";
-}
-.gi-conferense:before {
-  content: "\e91b";
-}
-.gi-congratulation:before {
-  content: "\e91c";
-}
-.gi-creative:before {
-  content: "\e91d";
-}
-.gi-cycle:before {
-  content: "\e91e";
-}
-.gi-docs:before {
-  content: "\e91f";
-}
-.gi-ecology:before {
-  content: "\e920";
-}
-.gi-exhibition:before {
-  content: "\e921";
-}
-.gi-fax:before {
-  content: "\e922";
-}
-.gi-file:before {
-  content: "\e924";
-}
-.gi-file-audio:before {
-  content: "\e925";
-}
-.gi-file-code:before {
-  content: "\e926";
-}
-.gi-file-doc:before {
-  content: "\e927";
-}
-.gi-file-image:before {
-  content: "\e928";
-}
-.gi-file-pdf:before {
-  content: "\e929";
-}
-.gi-file-ppt:before {
-  content: "\e92a";
-}
-.gi-file-txt:before {
-  content: "\e92b";
-}
-.gi-file-video:before {
-  content: "\e92c";
-}
-.gi-file-xls:before {
-  content: "\e92d";
-}
-.gi-file-zip:before {
-  content: "\e92e";
-}
-.gi-fpso:before {
-  content: "\e92f";
-}
-.gi-graduate:before {
-  content: "\e930";
-}
-.gi-guap-logo:before {
-  content: "\e931";
-}
-.gi-institute-partners:before {
-  content: "\e932";
-}
-.gi-international-projects:before {
-  content: "\e933";
-}
-.gi-job:before {
-  content: "\e934";
-}
-.gi-laureate:before {
-  content: "\e935";
-}
-.gi-live:before {
-  content: "\e936";
-}
-.gi-logo-fdpo:before {
-  content: "\e937";
-}
-.gi-logo-fspo:before {
-  content: "\e938";
+.gi-logo-iibmp:before {
+  content: "\e942";
 }
 .gi-logo-i01:before {
   content: "\e939";
@@ -217,9 +109,6 @@
 .gi-logo-i04:before {
   content: "\e93c";
 }
-.gi-logo-i05:before {
-  content: "\e93d";
-}
 .gi-logo-i06:before {
   content: "\e93e";
 }
@@ -229,56 +118,110 @@
 .gi-logo-i08:before {
   content: "\e940";
 }
+.gi-logo-indo:before {
+  content: "\e943";
+}
+.gi-logo-fdpo:before {
+  content: "\e937";
+}
+.gi-logo-fspo:before {
+  content: "\e938";
+}
 .gi-logo-igf:before {
   content: "\e941";
 }
-.gi-logo-iibmp:before {
-  content: "\e942";
+.gi-guap-logo:before {
+  content: "\e931";
 }
-.gi-logo-indo:before {
-  content: "\e943";
+.gi-atom:before {
+  content: "\e915";
+}
+.gi-big-atom:before {
+  content: "\e919";
+}
+.gi-star:before {
+  content: "\e958";
+}
+.gi-logo-i05:before {
+  content: "\e93d";
+}
+.gi-institute-partners:before {
+  content: "\e932";
+}
+.gi-target-partners:before {
+  content: "\e95e";
+}
+.gi-job:before {
+  content: "\e934";
+}
+.gi-start:before {
+  content: "\e959";
+}
+.gi-fpso:before {
+  content: "\e92f";
+}
+.gi-bachleor:before {
+  content: "\e917";
+}
+.gi-specialist:before {
+  content: "\e956";
 }
 .gi-magister:before {
   content: "\e944";
 }
-.gi-mail:before {
-  content: "\e945";
+.gi-postgraduate:before {
+  content: "\e94d";
 }
-.gi-mastery:before {
-  content: "\e946";
-}
-.gi-meeting:before {
-  content: "\e947";
-}
-.gi-military:before {
-  content: "\e948";
-}
-.gi-museum-of-police:before {
-  content: "\e949";
-}
-.gi-passing-score:before {
-  content: "\e94a";
+.gi-user:before {
+  content: "\e963";
 }
 .gi-person:before {
   content: "\e94b";
 }
-.gi-phone:before {
-  content: "\e94c";
-}
-.gi-postgraduate:before {
-  content: "\e94d";
-}
-.gi-prize:before {
-  content: "\e94e";
+.gi-students:before {
+  content: "\e95a";
 }
 .gi-professor:before {
   content: "\e94f";
 }
+.gi-meeting:before {
+  content: "\e947";
+}
+.gi-target-studs:before {
+  content: "\e960";
+}
+.gi-target-employee:before {
+  content: "\e95d";
+}
+.gi-cycle:before {
+  content: "\e91e";
+}
+.gi-conferense:before {
+  content: "\e91b";
+}
+.gi-arrow-left:before {
+  content: "\e913";
+}
+.gi-arrow-right:before {
+  content: "\e914";
+}
+.gi-adress:before {
+  content: "\e912";
+}
+.gi-base-cathedra:before {
+  content: "\e918";
+}
+.gi-exhibition:before {
+  content: "\e921";
+}
+.gi-graduate:before {
+  content: "\e930";
+}
+.gi-laureate:before {
+  content: "\e935";
+}
 .gi-schedule:before {
   content: "\e950";
-}
-.gi-science:before {
-  content: "\e951";
 }
 .gi-science-event:before {
   content: "\e952";
@@ -289,41 +232,11 @@
 .gi-scientificgroups:before {
   content: "\e954";
 }
-.gi-search:before {
-  content: "\e955";
-}
-.gi-specialist:before {
-  content: "\e956";
-}
 .gi-sport:before {
   content: "\e957";
 }
-.gi-star:before {
-  content: "\e958";
-}
-.gi-start:before {
-  content: "\e959";
-}
-.gi-students:before {
-  content: "\e95a";
-}
 .gi-study:before {
   content: "\e95b";
-}
-.gi-target-abits:before {
-  content: "\e95c";
-}
-.gi-target-employee:before {
-  content: "\e95d";
-}
-.gi-target-partners:before {
-  content: "\e95e";
-}
-.gi-target-schools:before {
-  content: "\e95f";
-}
-.gi-target-studs:before {
-  content: "\e960";
 }
 .gi-target-vips:before {
   content: "\e961";
@@ -331,11 +244,17 @@
 .gi-update:before {
   content: "\e962";
 }
-.gi-user:before {
-  content: "\e963";
+.gi-military:before {
+  content: "\e948";
 }
-.gi-warning:before {
-  content: "\e965";
+.gi-prize:before {
+  content: "\e94e";
+}
+.gi-award:before {
+  content: "\e916";
+}
+.gi-congratulation:before {
+  content: "\e91c";
 }
 .gi-win-1:before {
   content: "\e966";
