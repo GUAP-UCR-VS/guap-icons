@@ -1,0 +1,8 @@
+@import "style.scss";
+
+[class^="gi-"],
+[class*=" gi-"] {
+  display: inline-block;
+  font-weight: normal !important;
+  vertical-align: -.125em;
+}

@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'guapicons';
-  src:  url('fonts/guapicons.eot?cgdoou');
-  src:  url('fonts/guapicons.eot?cgdoou#iefix') format('embedded-opentype'),
-    url('fonts/guapicons.ttf?cgdoou') format('truetype'),
-    url('fonts/guapicons.woff?cgdoou') format('woff'),
-    url('fonts/guapicons.svg?cgdoou#guapicons') format('svg');
+  src:  url('fonts/guapicons.eot?gl04py');
+  src:  url('fonts/guapicons.eot?gl04py#iefix') format('embedded-opentype'),
+    url('fonts/guapicons.ttf?gl04py') format('truetype'),
+    url('fonts/guapicons.woff?gl04py') format('woff'),
+    url('fonts/guapicons.svg?gl04py#guapicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="gi-"], [class*=" gi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'guapicons' !important;
   speak: never;
